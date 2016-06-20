@@ -1622,7 +1622,7 @@
 	}
 
 	body {
-		background: #312450;
+		background: #38569e;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1636,11 +1636,17 @@
 			transition: none !important;
 		}
 
+		/* FONTS */
+    @font-face {
+        font-family: "Mensch";
+        src: url(../fonts/mensch.ttf) format("truetype");
+    }
+
 /* Type */
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: Mensch, Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
